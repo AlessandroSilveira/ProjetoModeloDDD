@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 
-namespace ProjetoModeloDDD.Domain.Interfaces.Repositories
+namespace ProjetoModeloDDD.Application.Interface
 {
-	public interface IRepositoryBase<TEntity> where TEntity: class
+	public interface IAppServiceBase<TEntity> where TEntity : class 
 	{
 		void Add(TEntity obj);
 
