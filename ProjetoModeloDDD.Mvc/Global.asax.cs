@@ -18,6 +18,7 @@ namespace ProjetoModeloDDD.Mvc
 			RouteConfig.RegisterRoutes(RouteTable.Routes);
 			BundleConfig.RegisterBundles(BundleTable.Bundles);
 
+
 			AutoMapperConfig.RegisterMapping();
 		}
 	}
